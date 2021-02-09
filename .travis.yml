@@ -1,4 +1,7 @@
-sudo: required # needed for docker builds
+language: generic 
+os: linux
+dist: xenial
+
 services:
   - docker
 
